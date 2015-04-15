@@ -1,0 +1,42 @@
+/* This is the CSS Style for my project webpage.*/
+
+
+/* This line makes all the HTML classes with name lesson have the text aligned in the center of the page and sets the font*/
+.notes_html {
+	text-align: center;
+	font-family: verdana;
+}
+
+
+/*This is giving a class to the Main_Title*/
+.main_title {
+	color: red;
+	text-align: center;
+	font-family: "Verdana";
+	text-decoration: underline;	
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+/*This is giving a class to the Sub_Title*/
+.sub_title {
+	color: blue;
+	text-align: center;
+	font-family: "Verdana";
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+/*This is giving a class to the sub title descriptions*/
+.sub_title_description {
+	text-align: center;
+	color: gray;
+	font-family: verdana;
+}
+
+/* Below is the CSS for the HTML tags*/
+/*This is making all the bullets in unordered lists appear next to the text*/
+ul {
+    list-style-position: inside;
+}
+
